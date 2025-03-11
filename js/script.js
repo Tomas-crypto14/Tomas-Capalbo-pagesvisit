@@ -1,8 +1,9 @@
 const button = document.querySelector("#btnReestablecer");
-//localStorage.setItem("Visitas", "2");
+//localStorage.setItem("visitas", "0");
 const counterContainer = document.querySelector("#contadorVisitas");
 //const contadorvisitas = Number(contadorvisitas) + 1;
 let contadorvisitas = localStorage.getItem("visitas");
+
 
 if (contadorvisitas){
     contadorvisitas = Number(contadorvisitas) + 1;

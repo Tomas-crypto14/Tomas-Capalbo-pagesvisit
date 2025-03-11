@@ -16,10 +16,10 @@ counterContainer.innerHTML = contadorvisitas;
 
 
 //const contadorvisitas = localStorage.getItem("visitas");
-/*for (let i=0; i<localStorage.length; i++) {
+for (let i=0; i<localStorage.length; i++) {
     let key = localStorage.key(i);
     console.log(`${key}: ${localStorage.getItem(key)}`);
-}*/ 
+} 
 
 button.addEventListener("click", () => {
     contadorvisitas = 1;

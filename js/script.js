@@ -1,4 +1,5 @@
-const button = document.querySelector("#btnReestablecer");
+//const button = document.querySelector("#btnReestablecer");
+const button = document.getElementById("btnReestablecer");
 //localStorage.setItem("visitas", "0");
 const counterContainer = document.querySelector("#contadorVisitas");
 //const contadorvisitas = Number(contadorvisitas) + 1;
